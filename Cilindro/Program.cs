@@ -7,7 +7,7 @@ namespace Cilindro
         static void Main(string[] args)
         {
             //declaration of variables
-            float pi = 3.1415926f;
+            float pi = (float) Math.PI;
             float height;
             string sHeight;
             float radius;
