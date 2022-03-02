@@ -22,12 +22,14 @@ namespace Cilindro
             sRadius = Console.ReadLine();
 
             //convert string to float
+            height = float.Parse(sHeight);
+            radius = float.Parse(sRadius);
 
             //calculations
 
             //print results
-            Console.WriteLine($"A cylinder with a height of {sHeight}, and a" +
-            $" radius of {sRadius}, has a volume of {volume} and the surface" +
+            Console.WriteLine($"A cylinder with a height of {height}, and a" +
+            $" radius of {radius}, has a volume of {volume} and the surface" +
             $" area of {surfaceArea}.");
         }
     }
