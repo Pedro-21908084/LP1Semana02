@@ -13,6 +13,11 @@ namespace IncDec
             y= ++x;
 
             Console.WriteLine($"x = {x} e y = {y}");
+
+            //espero que x=3 e y=2
+            y= x++;
+
+            Console.WriteLine($"x = {x} e y = {y}");
         }
     }
 }
