@@ -15,21 +15,13 @@ namespace SkynetPatternSwitch
 
             // Verificar se se trata de uma questão conhecida e determinar uma
             // resposta adequada
-            switch (question)
+            response = question switch
             {
-                case "How are you?":
-                    response = "I'm fine, thank you";
-                    break;
-                case "What's your name?":
-                    response = "Skynet";
-                    break;
-                case "What's your mission?":
-                    response = "Destroy mankind!";
-                    break;
-                default:
-                    response = "You got me, I'm not THAT smart!";
-                    break;
-            }
+                "How are you?" => "I'm fine, thank you",
+                "What's your name?" => "Skynet",
+                "What's your mission?"=> "Destroy mankind!",
+                _ => "You got me, I'm not THAT smart!",
+            };
 
             // Responder adequadamente
             Console.WriteLine(response);
