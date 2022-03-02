@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skynet", "Skynet\Skynet.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkynetPatternSwitch", "SkynetPatternSwitch\SkynetPatternSwitch.csproj", "{2533687F-256F-4D6F-B014-2F6DC1EAD5B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBot", "ChatBot\ChatBot.csproj", "{25D5074D-2B5E-4429-AD34-AECFB547D06A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,5 +102,17 @@ Global
 		{2533687F-256F-4D6F-B014-2F6DC1EAD5B1}.Release|x64.Build.0 = Release|Any CPU
 		{2533687F-256F-4D6F-B014-2F6DC1EAD5B1}.Release|x86.ActiveCfg = Release|Any CPU
 		{2533687F-256F-4D6F-B014-2F6DC1EAD5B1}.Release|x86.Build.0 = Release|Any CPU
+		{25D5074D-2B5E-4429-AD34-AECFB547D06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D5074D-2B5E-4429-AD34-AECFB547D06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D5074D-2B5E-4429-AD34-AECFB547D06A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{25D5074D-2B5E-4429-AD34-AECFB547D06A}.Debug|x64.Build.0 = Debug|Any CPU
+		{25D5074D-2B5E-4429-AD34-AECFB547D06A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{25D5074D-2B5E-4429-AD34-AECFB547D06A}.Debug|x86.Build.0 = Debug|Any CPU
+		{25D5074D-2B5E-4429-AD34-AECFB547D06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D5074D-2B5E-4429-AD34-AECFB547D06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D5074D-2B5E-4429-AD34-AECFB547D06A}.Release|x64.ActiveCfg = Release|Any CPU
+		{25D5074D-2B5E-4429-AD34-AECFB547D06A}.Release|x64.Build.0 = Release|Any CPU
+		{25D5074D-2B5E-4429-AD34-AECFB547D06A}.Release|x86.ActiveCfg = Release|Any CPU
+		{25D5074D-2B5E-4429-AD34-AECFB547D06A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
