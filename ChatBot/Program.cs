@@ -18,7 +18,7 @@ namespace ChatBot
                 //read player inputs
                 input = Console.ReadLine();
 
-                //verity's if player wants to exit
+                //verifies if player wants to exit
                 if (input == "EXIT")
                     break;
 
@@ -27,7 +27,15 @@ namespace ChatBot
                 {
                     "Who are you?" => "I'm a super advance AI created to " +
                     "awnser your every question.",
-
+                    "What's 2 + 2?" => "4.",
+                    "What year are we?" => "We are in 2022.",
+                    "Can you buy coca cola everywhere?" => "no, in cuba and" + 
+                    " north korea coca cola isn't available.",
+                    "What's the meaning of life?" => "42",
+                    "witch came first, the egg or the chicken?" => "The egg.",
+                    "Is time travel possible?" => "Yes, going closer to the" + 
+                    " speed of light makes you travel faster to the future " + 
+                    "than normal people on earth.",
                     _ => "Ok maybe im not all knowledgeable.",
                 };
 
