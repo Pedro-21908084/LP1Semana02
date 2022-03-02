@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text; 
 
 namespace ValoresEspeciais
 {
@@ -6,6 +7,8 @@ namespace ValoresEspeciais
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8; 
+            
             //byte
             Console.WriteLine($"Byte:");
             Console.WriteLine($"    Max: {byte.MaxValue}");
@@ -55,11 +58,17 @@ namespace ValoresEspeciais
             Console.WriteLine($"Float:");
             Console.WriteLine($"    Max: {float.MaxValue}");
             Console.WriteLine($"    Min: {float.MinValue}");
+            Console.WriteLine($"    +{'\u221E'}: {float.PositiveInfinity}");
+            Console.WriteLine($"    -{'\u221E'}: {float.NegativeInfinity}");
+            Console.WriteLine($"    NaN: {float.NaN}");
 
             //double
             Console.WriteLine($"Double:");
             Console.WriteLine($"    Max: {double.MaxValue}");
             Console.WriteLine($"    Min: {double.MinValue}");
+            Console.WriteLine($"    +{'\u221E'}: {double.PositiveInfinity}");
+            Console.WriteLine($"    -{'\u221E'}: {double.NegativeInfinity}");
+            Console.WriteLine($"    NaN: {double.NaN}");
 
         }
     }
