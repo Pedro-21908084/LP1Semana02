@@ -66,7 +66,9 @@ namespace ValoresEspeciais
             //float
             Console.WriteLine($"Float:");
             Console.WriteLine($"    Max: {float.MaxValue}");
-            Console.WriteLine($"    Overflow: {float.MaxValue+1}");
+            Console.WriteLine($"    Overflow1: {float.MaxValue+1}");
+            Console.WriteLine($"    Overflow2: {float.MaxValue*2}");
+            Console.WriteLine($"    UnderFlow: {float.MaxValue-0.000000001}");
             Console.WriteLine($"    Min: {float.MinValue}");
             Console.WriteLine($"    +{'\u221E'}: {float.PositiveInfinity}");
             Console.WriteLine($"    -{'\u221E'}: {float.NegativeInfinity}");
@@ -75,7 +77,9 @@ namespace ValoresEspeciais
             //double
             Console.WriteLine($"Double:");
             Console.WriteLine($"    Max: {double.MaxValue}");
-            Console.WriteLine($"    Overflow: {double.MaxValue+1}");
+            Console.WriteLine($"    Overflow1: {double.MaxValue+1}");
+            Console.WriteLine($"    Overflow2: {double.MaxValue*2}");
+            Console.WriteLine($"    UnderFlow: {double.MaxValue-0.000000001}");
             Console.WriteLine($"    Min: {double.MinValue}");
             Console.WriteLine($"    +{'\u221E'}: {double.PositiveInfinity}");
             Console.WriteLine($"    -{'\u221E'}: {double.NegativeInfinity}");
