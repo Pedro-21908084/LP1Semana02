@@ -12,8 +12,8 @@ namespace Cilindro
             string sHeight;
             float radius;
             string sRadius;
-            float volume = 0;
-            float surfaceArea = 0;
+            float volume;
+            float surfaceArea;
 
             //player input
             Console.WriteLine("Hello, please tell me the cylinder's height:");
@@ -26,6 +26,8 @@ namespace Cilindro
             radius = float.Parse(sRadius);
 
             //calculations
+            volume = pi * radius*radius * height;
+            surfaceArea = 2 * radius * (radius + height);
 
             //print results
             Console.WriteLine($"A cylinder with a height of {height}, and a" +
