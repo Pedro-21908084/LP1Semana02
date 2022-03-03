@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piramide", "Piramide\Pirami
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise17", "Exercise17\Exercise17.csproj", "{311D31FE-8A93-4B44-9E96-56CFB0EFA9B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise18", "Exercise18\Exercise18.csproj", "{29BDF215-6993-4ED2-A777-A24AD17012A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -142,5 +144,17 @@ Global
 		{311D31FE-8A93-4B44-9E96-56CFB0EFA9B3}.Release|x64.Build.0 = Release|Any CPU
 		{311D31FE-8A93-4B44-9E96-56CFB0EFA9B3}.Release|x86.ActiveCfg = Release|Any CPU
 		{311D31FE-8A93-4B44-9E96-56CFB0EFA9B3}.Release|x86.Build.0 = Release|Any CPU
+		{29BDF215-6993-4ED2-A777-A24AD17012A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BDF215-6993-4ED2-A777-A24AD17012A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BDF215-6993-4ED2-A777-A24AD17012A7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{29BDF215-6993-4ED2-A777-A24AD17012A7}.Debug|x64.Build.0 = Debug|Any CPU
+		{29BDF215-6993-4ED2-A777-A24AD17012A7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{29BDF215-6993-4ED2-A777-A24AD17012A7}.Debug|x86.Build.0 = Debug|Any CPU
+		{29BDF215-6993-4ED2-A777-A24AD17012A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BDF215-6993-4ED2-A777-A24AD17012A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BDF215-6993-4ED2-A777-A24AD17012A7}.Release|x64.ActiveCfg = Release|Any CPU
+		{29BDF215-6993-4ED2-A777-A24AD17012A7}.Release|x64.Build.0 = Release|Any CPU
+		{29BDF215-6993-4ED2-A777-A24AD17012A7}.Release|x86.ActiveCfg = Release|Any CPU
+		{29BDF215-6993-4ED2-A777-A24AD17012A7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
