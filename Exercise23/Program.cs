@@ -38,7 +38,6 @@ namespace Exercise23
             };
             //print result
             Console.WriteLine(result);
-
         }
     }
 }
